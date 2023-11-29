@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d13baa71ff9a83e45baa2ebf20650874
+timeCreated: 1533966428
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HelloBigDeal
+  fontNames:
+  - HelloBigDeal
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

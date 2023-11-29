@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1411438621159910}
+  m_IsPrefabParent: 1
+--- !u!1 &1411438621159910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4312695858555586}
+  - component: {fileID: 114366338075945526}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4312695858555586
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411438621159910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 668.97534, y: 286.25952, z: 35.126762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114366338075945526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411438621159910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca91da6f0fc0a934abfeafd195e5a52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24300002, guid: 9ca0ffb1c8c2a294eb226a30ce6f4fc7, type: 2}
+  sounds:
+  - name: PoopGunFire
+    clip: {fileID: 8300000, guid: 635b3b31c3edb7140b7f5545ad1bbec7, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: PoopHit
+    clip: {fileID: 8300000, guid: b9baa335064b1d9428e0861ae1c7c01f, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: WorkerDie
+    clip: {fileID: 8300000, guid: 03aab8b8b96d6af4d939ec9848a5732c, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: WorkerHit
+    clip: {fileID: 8300000, guid: 53770ebb5209c0444878d96515ee05ae, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: WorkerAttack
+    clip: {fileID: 8300000, guid: 957fc8d6393cb77438fe5f553b418b18, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckDriving
+    clip: {fileID: 8300000, guid: 5c26592060d33d0459728e9ac44b81d7, type: 3}
+    volume: 0.4
+    loop: 1
+    source: {fileID: 0}
+  - name: TruckAttack
+    clip: {fileID: 8300000, guid: 2768e71e519e89e4e8c91909df5aa756, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckDie
+    clip: {fileID: 8300000, guid: 8f42c853f00ead14d8ac3cf5ea7f5a4c, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: LawyerDie
+    clip: {fileID: 8300000, guid: 16856793c25d8c9419221407531c0146, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: LawyerHit
+    clip: {fileID: 8300000, guid: c63ef92139aa9bb45934ecca6972a130, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: LawyerAttack
+    clip: {fileID: 8300000, guid: 7071434a7182e75438500a2566ceea3a, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: CannonFire
+    clip: {fileID: 8300000, guid: 72dd1aa7a1b26394cbffd7509c5fcd3d, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Cow
+    clip: {fileID: 8300000, guid: 94e51d16e531de74ba58679047412320, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Chicken
+    clip: {fileID: 8300000, guid: a7e7806438e73a9428eba323d612cbd1, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Pig
+    clip: {fileID: 8300000, guid: ff12213ffa480b64ebe9c8994bda063b, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Duck
+    clip: {fileID: 8300000, guid: 8ddfd023016bc764ea0a1474ad6a2627, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: db36e8926029409418f6f6dbe2e8d546, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 5f134103642f3aa4c9fc9f52548c8376, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: WaveComplete
+    clip: {fileID: 8300000, guid: e189d3227aa82164ea8fd29e05037e30, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: SectionDie
+    clip: {fileID: 8300000, guid: e3594040b3e818a4c99d641cb371f8ba, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: de272cdd5cefb43469829fed12c44c2c, type: 3}
+    volume: 0.02
+    loop: 1
+    source: {fileID: 0}
+  - name: Bought
+    clip: {fileID: 8300000, guid: a645ad3713e77b44ab6d8c0e68e0403e, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
